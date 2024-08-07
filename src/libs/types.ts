@@ -6,9 +6,9 @@ interface UserCardProps {
     address: string;
   }
 // add type for UserCardDetail's Props
-interface UserCardProps {
-    name: string;
+interface UserCardDetailProps {
     email: string;
-    imgUrl: string;
     address: string;
   }
+  
+  export type { UserCardProps, UserCardDetailProps };
